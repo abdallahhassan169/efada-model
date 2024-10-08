@@ -72,7 +72,7 @@ def predict():
         return jsonify({"error": str(e)}), 400
 
 
-@app.route('/a', methods=['GET'])
+@app.route('/', methods=['GET'])
 def pred():
     return "aaaaa"
 
